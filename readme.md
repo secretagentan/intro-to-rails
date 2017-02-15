@@ -82,6 +82,8 @@ A Letter should have a
     - "message", 
     - "is_read" 
 
+Create some seed data in `db/seeds.rb`
+
 Write a migration to set "is_read" to default to "false"
 
 Create an "index.html" page that gets served from "public"
