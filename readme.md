@@ -7,7 +7,7 @@ questions for your sqad.
 
 Squad 1     | Squad 2        | Squad 3     | Squad 4
 :--         | :--            | :--         | :-- 
-__Routes__  | __Controller__ | __Modle__   | __Migrations__
+__Routes__  | __Controller__ | __Model__   | __Migrations__
 Tim         | Andrew         | Kora        | Qian
 Jake        | Ritwik         | Barret      | Justin
 Bao         | Michelle       | An          | Kris
