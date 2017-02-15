@@ -70,8 +70,15 @@ http://guides.rubyonrails.org/active_record_basics.html
 
   - Create
       - .new returns a new object
+          - .save will commit the record to db
+          ```
+            m = Movie.new({title: "Batman", desc: "Batman")
+            m.save
+          ```
       - .create will create and save a new record to db
-      - .save will commit the record to db
+          ```
+            Movie.new({title: "Batman", desc: "Batman")
+          ```
 
   - Read
       - there are many methods used to query an Active Record model
