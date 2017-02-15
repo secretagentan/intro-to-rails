@@ -56,6 +56,8 @@ http://guides.rubyonrails.org/active_record_migrations.html
 
 # Development
 
+http://edgeguides.rubyonrails.org/api_app.html
+
 Squad 1 | Squad 2  | Squad 3 | Squad 4
 :--     | :--      | :--     | :-- 
 Tim     | Andrew   | Kora    | Qian
