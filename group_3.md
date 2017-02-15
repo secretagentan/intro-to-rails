@@ -41,6 +41,7 @@ http://guides.rubyonrails.org/active_record_basics.html
           - i.e. books for class Book
       - Class names use CamelCase
       - Table names use snake_case
+      - Rails pluralization mechanism very powerful
           - i.e. LineItem : line_items, Article : articles, Mouse : mice, Person : people
           
   - Schema Conventions
