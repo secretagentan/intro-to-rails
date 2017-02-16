@@ -84,39 +84,39 @@ $ rails new dead_letter_app --api --database=postgresql
 
 # The Data Model
 
-Scaffold a Letter resource
+- [x] Scaffold a Letter resource
 
-A Letter should have a 
-    - "to_address", 
-    - "from_address", 
-    - "message", 
-    - "is_read" 
+- [x] A Letter should have a 
+    - [x] "to_address", 
+    - [x] "from_address", 
+    - [x] "message", 
+    - [x] "is_read" 
 
-Create some seed data in `db/seeds.rb`
+- [x] Create some seed data in `db/seeds.rb`
 
-Write a migration to set "is_read" to default to "false"
+- [x] Write a migration to set "is_read" to default to "false"
 
-Create an "index.html" page that gets served from "public"
+- [x] Create an "index.html" page that gets served from "public"
 
-When a user visits "/" 
-    - they should see a form to create a new letter.
+- [x] When a user visits "/" 
+    - [x] they should see a form to create a new letter.
 
-When a user fills out the form and clicks "create"
-    - use jQuery's ajax or Fetch to create a new letter.
+- [x] When a user fills out the form and clicks "create"
+    - [x] use jQuery's ajax or Fetch to create a new letter.
 
-Provide a button to view all letters
+- [x] Provide a button to view all letters
 
-When a user clicks "View All"
-    - use jQuery's ajax or Fetch to retrieve all the letters and render them
+- [x] When a user clicks "View All"
+    - [x] use jQuery's ajax or Fetch to retrieve all the letters and render them
 
-Provide a link for each Letter to mark it as read.
+- [ ] Provide a link for each Letter to mark it as read.
     
-When a user clicks on "Mark as read"
-    - use jQuery's ajax or Fetch to update and mark that letter as read
+- [ ] When a user clicks on "Mark as read"
+    - [ ] use jQuery's ajax or Fetch to update and mark that letter as read
 
-Provide a button for each Letter to delete it.
+- [ ] Provide a button for each Letter to delete it.
 
-When a user clicks "Destroy"
-    - use jQuery's ajax or Fetch to destroy that letter
+- [ ] When a user clicks "Destroy"
+    - [ ] use jQuery's ajax or Fetch to destroy that letter
 
 
