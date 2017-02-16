@@ -12,6 +12,7 @@ Tim         | Andrew         | Kora        | Qian
 Jake        | Ritwik         | Barrett     | Justin
 Bao         | Michelle       | An          | Kris
 Dakotah     | Brad           | Lacey       | Abi
+
     
 # Routes
 
@@ -66,6 +67,8 @@ http://guides.rubyonrails.org/active_record_migrations.html
 
 # Development
 
+http://edgeguides.rubyonrails.org/api_app.html
+
 Squad 1 | Squad 2  | Squad 3 | Squad 4
 :--     | :--      | :--     | :-- 
 Tim     | Andrew   | Kora    | Qian
@@ -79,14 +82,21 @@ Create a new Rails app called "dead_letter_app" that produces a JSON api.
 $ rails new dead_letter_app --api --database=postgresql
 ```
 
-Data Model
+# The Data Model
+
+Scaffold a Letter resource
 
 A Letter should have a 
     - "to_address", 
     - "from_address", 
     - "message", 
-    - "stamp_price", and 
     - "is_read" 
+
+Create some seed data in `db/seeds.rb`
+
+Write a migration to set "is_read" to default to "false"
+
+Create an "index.html" page that gets served from "public"
 
 When a user visits "/" 
     - they should see a form to create a new letter.
@@ -108,4 +118,5 @@ Provide a button for each Letter to delete it.
 
 When a user clicks "Destroy"
     - use jQuery's ajax or Fetch to destroy that letter
+
 
