@@ -109,10 +109,10 @@ $ rails new dead_letter_app --api --database=postgresql
 - [x] When a user clicks "View All"
     - [x] use jQuery's ajax or Fetch to retrieve all the letters and render them
 
-- [ ] Provide a link for each Letter to mark it as read.
+- [x] Provide a link for each Letter to mark it as read.
     
-- [ ] When a user clicks on "Mark as read"
-    - [ ] use jQuery's ajax or Fetch to update and mark that letter as read
+- [x] When a user clicks on "Mark as read"
+    - [x] use jQuery's ajax or Fetch to update and mark that letter as read
 
 - [ ] Provide a button for each Letter to delete it.
 
