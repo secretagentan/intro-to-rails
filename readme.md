@@ -9,7 +9,7 @@ Squad 1     | Squad 2        | Squad 3     | Squad 4
 :--         | :--            | :--         | :-- 
 __Routes__  | __Controller__ | __Model__   | __Migrations__
 Tim         | Andrew         | Kora        | Qian
-Jake        | Ritwik         | Barret      | Justin
+Jake        | Ritwik         | Barrett     | Justin
 Bao         | Michelle       | An          | Kris
 Dakotah     | Brad           | Lacey       | Abi
     
@@ -69,10 +69,9 @@ http://guides.rubyonrails.org/active_record_migrations.html
 Squad 1 | Squad 2  | Squad 3 | Squad 4
 :--     | :--      | :--     | :-- 
 Tim     | Andrew   | Kora    | Qian
-Ritwik  | Barret   | Justin  | Jake
+Ritwik  | Barrett  | Justin  | Jake
 An      | Kris     | Boa     | Michelle
-Abi     | Dakotah  | Kris    | Lacey
-        |          |         | Brad
+Abi     | Dakotah  | Brad    | Lacey
 
 Create a new Rails app called "dead_letter_app" that produces a JSON api.
 
